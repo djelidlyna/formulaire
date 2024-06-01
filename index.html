@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fiche de voeux</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>FICHE DE VOEUX</h1>
+    <table id="table1">
+<tr>
+ <th>
+    <form action="reponse.php" method="get">
+ 
+ <table id="table2">
+
+    <tr>
+     <th id="td1">NOM</th>
+     <th id="td2">  :</th>
+     <th id="td3"> <input type="text" placeholder="nom" id="td3input"></th>
+</tr>
+<br>
+<br>
+<br>
+<tr>
+    <th id="td1"> Prenom</th>
+    <th id="td2">:</th>
+    <th id="td3"><input type="text" placeholder="prenom" id="td3input"></th>
+</tr>
+<br>
+<br>
+<tr>
+    <th id="td1"> date de naissance </th>
+    <th id="td2">:</th>
+    <th id="td3"><input type="text" placeholder="date de naissance" id="td3input"></th>
+</tr>
+<br>
+<br>
+<tr>
+    <th id="td1"> nemero telephone</th>
+    <th id="td2">:</td>
+    <td id="td3"><input type="text" placeholder="numero telephone" id="td3input"></th>
+</tr>
+<tr>
+    <th id="td1"> adresse</th>
+    <th id="td2">:</th>
+    <th id="td3"><textarea type="text" placeholder="adresse" id="td3input"></textarea></th>
+</tr>
+
+<tr>
+    <th id="td1">Genre</th>
+       <th id="td2">:</th>
+    <th id="td3">
+           <input type="radio" name="genre" id="genre" value="h">
+                                <label for="masculin" id="m">Masculin</label>
+                                <input type="radio" name="genre" id="genre" value="f">
+                                <label for="feminin" id="m">Féminin</label>
+                            </th>
+</tr>
+
+<tr>
+    <th id="td1">Civilite</th>
+      <th id="td2">:</th>
+     <th id="td3">
+     <input type="radio" name="civilite" id="genre" value="m" checked>
+     <label for="mariee" id="m">Mariée</label>
+     <input type="radio" name="civilite" id="genre" value="c">
+     <label for="celibataire" id="m">Célibataire</label>
+                            </th>
+</tr>
+<tr>
+<th id="td1">Choix</th>
+<th id="td2">:</th>
+<th id="td3">
+    <select name="choix" id="td3input" >
+        <option  value="informatique" id="tranform"></option>
+        <option  value="informatique">Informatique</option>
+        <option value="finance">Finance</option>
+        <option  value="informatique">pharmacie</option>
+        <option  value="informatique">sm</option>
+        <option  value="informatique">biology</option>
+        <!-- Ajoutez d'autres options si nécessaire -->
+    </select>
+</th>
+</tr>
+<tr>
+    <th id="td1">Langues souhaitées à l'université</th>
+    <th id="td2">:</th>
+    <th id="td3">
+        <div id="langue">
+            <option  value="informatique" ></option>
+            <input type="checkbox" name="" id="">
+            <option  id="m" value="informatique">arabe</option>
+            <input type="checkbox" name="" id="">
+            <option  id="m" value="finance" selected >français</option>
+            <input type="checkbox" name="" id="">
+            <option  id="m" value="informatique">englais</option>
+            <input type="checkbox" name="" id="">
+            <option id="m" value="informatique">pas de preferances</option>
+            <input type="checkbox" name="" id="">
+           </div>
+            
+        </select>
+    </th>
+    </tr>
+    <tr>
+
+        
+       <th id="td1"> <label for="lettre_motivation" id="td1">Lettre de motivation </label></th>
+       <th id="td2">:</th>
+       <th> <input type="file" name="lettre_motivation" id="file">
+        
+        <button type="submit" value="Envoyer" id="btn"><p id="en">envoyer</p></button></th>
+    </form>
+    </tr>
+    <tr>
+        
+    <button id="reset" value="reset"><p id="an1">ANNULER</p></button>
+      
+        
+        
+        <!-- Espaces entre les boutons -->
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        
+        <!-- Bouton d'envoi -->
+        <button id="submit" value="submit"><p id="an">SAUVGARDER</p></button>
+      
+        
+        
+    </form>
+    </th>
+    
+ </table>
+</form>
+</th>
+</tr>
+    </table>
+    
+</body>
+</htm>
